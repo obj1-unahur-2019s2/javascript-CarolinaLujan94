@@ -27,6 +27,12 @@ function darleComidaAPepita() {
     label.innerText = pepita.energia();
 }
 
+function hacerVolarAPepita() {
+    pepita.volar(kms)
+    const label = document.getElementById("energia");
+    label.innetText = pepita.energia();
+}
+
 const pepita = new Golondrina();
 
 module.exports = { Golondrina, alpiste, mondongo }
